@@ -8,9 +8,9 @@ const Home = () => {
     <div>
       <Header />
       <main>
-        <section className="py-12 text-center">
-          <h1 className="text-3xl font-semibold">Welcome to Saylani Welfare</h1>
-          <p className="mt-4">We are here to help you with your loan needs. Choose a category and calculate your loan today!</p>
+        <section className="py-12 text-center bg-gray-400">
+          <h1 className="text-4xl font-semibold">Saylani Welfare</h1>
+          <p className="mt-4">Saylani lone Formula!</p>
         </section>
 
         <LoanCategories />

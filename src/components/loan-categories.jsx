@@ -5,7 +5,13 @@ import LoanCalculator from '@/components/loan-calculator'; // Import the LoanCal
 
 const LoanCategories = () => {
   const categories = [
-    { name: "Wedding Loans" },
+    { name: "Wedding Loans " },
+    { name: "Home Construction Loans" },
+    { name: "Business Startup Loans" },
+    { name: "Education Loans" }
+  ];
+  const Details = [
+    { name: "Wedding Loans " },
     { name: "Home Construction Loans" },
     { name: "Business Startup Loans" },
     { name: "Education Loans" }
@@ -14,20 +20,21 @@ const LoanCategories = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
 
   return (
-    <section className="py-12 bg-gray-50">
+    <section className="py-12 bg-gray-500">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-8 text-gray-800">Loan Categories</h2>
+        <h2 className="text-3xl font-bold mb-8 text-gray-800">Categories</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {categories.map((category, index) => (
             <div
               key={index}
-              className={`bg-white py-8 px-6 rounded-lg shadow-lg border-2 border-transparent transition-all duration-300 hover:scale-105 hover:border-green-600 cursor-pointer ${
+              className={`bg-green-500  py-8 px-6 rounded-lg shadow-lg border-2 border-transparent transition-all duration-300 hover:scale-105 hover:border-green-600 cursor-pointer ${
                 selectedCategory === category.name ? 'border-green-600' : 'border-gray-300'
               }`}
               onClick={() => setSelectedCategory(category.name)} // Set the category on click
             >
               <h3 className="text-xl font-semibold text-gray-700">{category.name}</h3>
-              <p className="text-green-600 mt-4 hover:underline">
+              <h5 className="text-xl font-semibold text-gray-700">{Details.name}</h5>
+              <p className="text-white mt-4 hover:underline">
                 <Link href="#">Get Loan</Link>
               </p>
             </div>
