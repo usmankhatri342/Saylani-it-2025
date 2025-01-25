@@ -10,7 +10,7 @@ const Home = () => {
       <main>
         <section className="py-12 text-center bg-gray-400">
           <h1 className="text-4xl font-semibold">Saylani Welfare</h1>
-          <p className="mt-4">Saylani lone Formula!</p>
+          <p className="mt-4">Saylani lone Formula</p>
         </section>
 
         <LoanCategories />

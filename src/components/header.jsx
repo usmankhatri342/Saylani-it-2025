@@ -1,15 +1,56 @@
 // components/Header.js
 
+// import Link from "next/link";
+// import Image from "next/image";
+
+// const Header = () => {
+//   return (
+//     <header className="p-4 border-b bg">
+//       <div className="container mx-auto flex justify-between items-center">
+//         {/* Logo */}
+//         <div className="text-xl font-bold">
+//           <Image src="/logo.png" width={200} height={40} />
+//         </div>
+
+//         {/* Navigation Links */}
+//         <nav>
+//           <ul className="flex space-x-6">
+//             <li>
+//               <Link href="/" className="hover:underline">
+//                 Home
+//               </Link>
+//             </li>
+//             <li>
+//               <Link href="/about" className="hover:underline">
+//                 About Us
+//               </Link>
+//             </li>
+//             <li>
+//               <Link href="/contact" className="hover:underline">
+//                 Contact Us
+//               </Link>
+//             </li>
+//           </ul>
+//         </nav>
+//       </div>
+//     </header>
+//   );
+// };
+
+// export default Header;
+
+
+
 import Link from "next/link";
 import Image from "next/image";
 
 const Header = () => {
   return (
-    <header className="p-4 border-b bg-green-00">
+    <header className="p-4 border-b bg">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <div className="text-xl font-bold">
-          <Image src="/logo.png" width={200} height={40} />
+          <Image src="/logo.png" width={200} height={40} alt="Logo" />
         </div>
 
         {/* Navigation Links */}
@@ -28,6 +69,12 @@ const Header = () => {
             <li>
               <Link href="/contact" className="hover:underline">
                 Contact Us
+              </Link>
+            </li>
+            {/* Add Login link here */}
+            <li>
+              <Link href="/login" className="hover:underline">
+                Login
               </Link>
             </li>
           </ul>
