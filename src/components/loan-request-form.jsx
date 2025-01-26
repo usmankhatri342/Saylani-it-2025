@@ -1,3 +1,4 @@
+'use client'
 // components/LoanRequestForm.js
 
 import { useState } from 'react';

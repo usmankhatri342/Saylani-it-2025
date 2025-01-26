@@ -1,4 +1,6 @@
+'use client'
 // components/AppointmentScheduling.js
+
 
 import { useState } from 'react';
 
