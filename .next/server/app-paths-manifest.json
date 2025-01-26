@@ -1,0 +1,12 @@
+{
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/loan-calculator/page": "app/loan-calculator/page.js",
+  "/loan-request/page": "app/loan-request/page.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js",
+  "/registration/page": "app/registration/page.js",
+  "/signup/page": "app/signup/page.js"
+}

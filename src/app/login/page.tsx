@@ -51,7 +51,7 @@ function Login() {
 
         {/* Sign Up Link */}
         <div className="text-center mt-6">
-          <p className="text-sm text-gray-600">Don't have an account? <a href="/signup" className="text-blue-500 hover:underline">Sign Up</a></p>
+          <p className="text-sm text-gray-600">Dont have an account? <a href="/signup" className="text-blue-500 hover:underline">Sign Up</a></p>
         </div>
       </div>
     </div>
